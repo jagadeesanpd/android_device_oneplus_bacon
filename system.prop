@@ -22,12 +22,3 @@ ro.gps.agps_provider=1
 
 # cabl is handled by the panel
 ro.qualcomm.cabl=0
-<<<<<<< HEAD
-
-# HACK for QC errata issue
-#debug.hwui.render_dirty_regions=false
-
-#carriers, disable provisioning check for tethering
-net.tethering.noprovisioning=true
-=======
->>>>>>> 428ea52f269c301f9d61b8d453288905651fcfe5
