@@ -1,0 +1,17 @@
+[
+  {
+<<<<<<< HEAD
+    "remote": "cm",
+    "repository": "CyanogenMod/android_device_oppo_common",
+    "target_path": "device/oppo/common",
+    "revision": "cm-12.0"
+  }
+]
+=======
+    "remote": "TeamBliss-Devices",
+    "repository": "android_device_oppo_msm8974-common",
+    "target_path": "device/oppo/msm8974-common",
+    "revision": "lp5.0"
+  }
+]
+>>>>>>> 428ea52f269c301f9d61b8d453288905651fcfe5
