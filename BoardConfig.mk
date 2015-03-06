@@ -82,3 +82,6 @@ AUDIO_FEATURE_ENABLED_LOW_LATENCY_CAPTURE := true
 
 # inherit from the proprietary version
 -include vendor/oneplus/bacon/BoardConfigVendor.mk
+
+#tobitege: call sm.mk from here:
+-include vendor/bliss/config/sm.mk
