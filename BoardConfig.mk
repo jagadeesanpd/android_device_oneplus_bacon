@@ -20,23 +20,22 @@
 #tobitege:
 #BUILD_ENFORCE_SELINUX :=1
 BLISS_BUILD_BLOCK := 1
-TARGET_DISABLE_ARM_PIE :=true
-TARGET_TC_ROM :=4.8-sm
+BLISS_WIPE_CACHES := 1
+TARGET_TC_ROM :=4.8-linaro
 TARGET_TC_KERNEL :=4.9-sm
 BLISSIFY :=true
 BLISS_O3 :=true
 BLISS_GRAPHITE :=false
 BLISS_STRICT :=true
 BLISS_KRAIT :=true
-
+BLISS_PIPE := true
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
-#TARGET_USE_PIPE := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_bacon_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
-#TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
+TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
 
 # FOR SaberMod newest 4.9.3 repo installed!!!
 # Inline kernel building
